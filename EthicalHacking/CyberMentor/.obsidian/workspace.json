@@ -4,22 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "de59987acbb4c5a7",
+        "id": "d1641ac38e8db04c",
         "type": "tabs",
         "children": [
           {
-            "id": "698c885ee2113b31",
+            "id": "8096b816977a13a8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Networking Basics/IP Addresses.md",
+                "file": "Networking Basics/OSI model.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f6a8a6f19448e4bb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Networking Basics/Subnetting.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Networking Basics/IP Addresses.md",
+                "file": "Networking Basics/Subnetting.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Networking Basics/IP Addresses.md",
+                "file": "Networking Basics/Subnetting.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Networking Basics/IP Addresses.md"
+                "file": "Networking Basics/Subnetting.md"
               }
             }
           }
@@ -146,8 +159,15 @@
       "command-palette:Открыть палитру команд": false
     }
   },
-  "active": "698c885ee2113b31",
+  "active": "f6a8a6f19448e4bb",
   "lastOpenFiles": [
+    "Networking Basics/IP Addresses.md",
+    "Networking Basics/Subnetting.md",
+    "Networking Basics/OSI model.md",
+    "Networking Basics/Common Ports and Protocols.md",
+    "Networking Basics/TCP, UDP, 3-Way Handshake.md",
+    "IPClasses.png",
+    "Networking Basics/MAC Addresses.md",
     "Networking Basics.md"
   ]
 }

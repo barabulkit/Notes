@@ -12,4 +12,4 @@ its solved with ipv6 and **NAT**
 # NAT 
 **NAT** - Network Address Translation
 **NAT** gives to devices in local network special private IPs 
-![[Pasted image 20221230171909.png]]
+![[IPClasses.png]]
