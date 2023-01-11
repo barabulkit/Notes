@@ -5,3 +5,4 @@
 **arp -a** - same as **ip n** but older
 **ip r** - information about routing
 **route** - same as **ip r**
+**ping** - sends packages to target
