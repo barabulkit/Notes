@@ -15,7 +15,7 @@ to access them you use `$1` and so on inside
 you can get number of arguments with `$#`
 
 # Conditions
-```
+```bash
 if [ "$1" == "" ]
 then
 echo "You forgot to specify IP address"
@@ -25,14 +25,14 @@ fi
 ```
 
 # For loop
-```
+```bash
 for ip in  `seq 1 254` ;  do
 ping -c $1.$ip | grep "64 bytes" | cut -d " " -f 4 | tr -d ":" &
 done
 ```
 
 # Full ipsweep.sh script
-```
+```bash
 if [ "$1" == "" ]
 then
 
@@ -50,6 +50,6 @@ fi
 ampersand in the end of for statement makes it so that you don't wait until this statement completes, you going straigth to running next for cycle
 
 # Simple bash oneliner
-```
+```bash
 for ip in `./ipsweep.sh 192.168.1`; do nmap $ip & done
 ```
