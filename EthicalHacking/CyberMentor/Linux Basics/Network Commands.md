@@ -6,3 +6,5 @@
 **ip r** - information about routing
 **route** - same as **ip r**
 **ping** - sends packages to target
+**arp-scan -l** - lists all devices in your network
+**netdiscover -r 192.168.1.0/24** - list all devices in specified network
