@@ -65,3 +65,8 @@ Unable to negotiate with 192.168.1.101 port 22: no matching cipher found. Their 
 we need to specify cypher now and we will be able to connect, but we don't have password
 `ssh 192.168.1.101 -oKexAlgorithms=+diffie-hellman-group1-sha1 -oHostKeyAlgorithms=+ssh-dss -c aes128-cbc`
 so we doing this to see if connection banner can give us some info like ssh version if nmap wasn't able to get ssh version
+
+there is better way to fix this in note [[SSH client fix script]]
+
+next step is googling for version of software with "explot" addition, or using something like
+`searchsploit Samba 2.2.1a`
