@@ -1,0 +1,1 @@
+if server accepts url and perform request with it, it can be used in malicious way
